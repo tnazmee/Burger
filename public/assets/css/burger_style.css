@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body::before {
+    content: '';
+    background: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.6;
+}
+
+.navbar {
+    width: 100% !important;
+    height: 180px !important;
+    margin-bottom: 40px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(208, 89, 109, 1) 0%, rgba(231, 156, 118, 1) 90%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.Burger-Title {
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Make-Div {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form {
+    font-family: 'Julius Sans One', Sans-Serif;
+}
+
+.Panal-BG {
+    box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+}
+
+.Panal-BG,
+.panel-footer,
+.panel-heading {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(208, 89, 109, 1) 0%, rgba(231, 156, 118, 1) 90%);
+}
+
+.panel-heading {
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.panel-footer {
+    padding-top: 20px;
+    font-family: 'Julius Sans One', Sans-Serif;
+}
+
+.Panal-Div {
+    width: 100%;
+}
+
+ul {
+    width: 100% !important;
+    margin-right: 10px;
+}
+
+.btn-warning,
+.btn-danger {
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 30px;
+}
+
+hr {
+    width: 100%;
+}
