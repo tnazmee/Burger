@@ -5,7 +5,7 @@ if (process.env.JAWSDB_URL) {
 } else {
     connection = mysql.createConnection({
         host: "localhost",
-        //https://github.com/tnazmee/Burger        password: "password",
+        password: "password",
         database: "burgers_db"
     });
 };
